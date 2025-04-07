@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pmeter"
+version = "0.1.0"
+description = ""
+authors = ["TreeOfWorld <li_163jx@163.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+locust = "^2.34.0"
+
+
+[[tool.poetry.source]]
+name = "aliyun"
+url = "http://mirrors.aliyun.com/pypi/simple/"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
